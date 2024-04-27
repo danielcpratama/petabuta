@@ -3,5 +3,4 @@ numpy
 geopandas
 streamlit
 streamlit_folium
-time
 webbrowser
