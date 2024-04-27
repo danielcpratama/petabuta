@@ -201,9 +201,10 @@ else: #--------- GAME OVER PAGE ------------------------------------------------
         bayar = st.text_input('4 dijit terakhir referensi pembayaran QRIS', max_chars=4, value='')
         if bayar != '':
             disabled = False
-        st.caption('jangan lupa screenshot terus...')
-        if st.button('share ke twitter (X)', use_container_width=True):
-            share_to_twitter()
+        st.caption('jangan lupa screenshot, copy text dibawah, terus share ke twitter/instagram ya!')
+        text = f"Tes Geografi Umum Peta Buta Ibukota Provinsi Indonesia skor: {st.session_state.score}/76 - petabuta.streamlit.app"
+        st.code(f'{text}')
+
         if st.button('replay', use_container_width=True, disabled=disabled, type='primary'):
             st.session_state['counter'] = 1
             st.session_state['score'] = 0
