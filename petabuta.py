@@ -210,3 +210,6 @@ else: #--------- GAME OVER PAGE ------------------------------------------------
             st.session_state['score'] = 0
             st.session_state['mistakes'] = 0
             st.rerun()
+
+
+st.caption('made by daniel caesar pratama')
