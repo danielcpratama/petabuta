@@ -3,4 +3,6 @@ numpy
 geopandas
 streamlit
 streamlit_folium
-
+folium
+matplotlib
+mapclassify
