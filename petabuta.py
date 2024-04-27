@@ -123,7 +123,7 @@ def main():
                         highlight = False,
                         zoom_on_click = True, 
                         style_kwds = {'color' : 'black', 'weight':0.2, 'fillOpacity':100 },
-                        tooltip = True, 
+                        tooltip = False, 
                         )
 
     with st.container(border=False, height=350):
